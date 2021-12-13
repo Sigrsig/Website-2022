@@ -1,23 +1,104 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://media0.giphy.com/media/ZRbtUsG9PZdT42mpmQ/giphy.gif?cid=790b7611327cd601a2e9ce74c711ccc23a34b8ceb36aef0f&rid=giphy.gif&ct=g");
 html {
   background-color: #000000;
-  font-family: "Raleway", sans-serif;
+  color: #05aeb2;
 }
 
 .App {
+  font-family: "Raleway", sans-serif;
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
 }
 
 h1 {
-  color: #daa190;
+  font-size: 5rem;
+}
+
+.header {
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+}
+
+.logo {
+  width: 50px;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  filter: invert(22%) sepia(28%) saturate(7279%) hue-rotate(132deg) brightness(96%) contrast(101%);
+}
+
+.nav-dots {
+  padding-right: 1rem;
+  filter: invert(78%) sepia(28%) saturate(7279%) hue-rotate(132deg) brightness(96%) contrast(101%);
 }
 
 .top-page {
   height: 50vh;
   background-color: #000000;
+  padding-left: 1rem;
+  max-width: 1000px;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.title {
+  background-image: url("https://media3.giphy.com/media/bFlzA4uDNefHwcWqib/giphy.gif?cid=790b7611934861188d553aeede4e68bce9e12b1b02c45ebd&rid=giphy.gif&ct=g");
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  margin: 10px 0;
+}
+
+.me-pic {
+  filter: saturate(0) invert(22%) sepia(73%) saturate(1485%) hue-rotate(126deg) brightness(75%) contrast(101%);
+  width: 300px;
+  border-radius: 180px;
+}
+
+.footer {
+  background-color: #025d7b;
+  color: #000000;
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.soc-media {
+  filter: invert(100%);
+  display: flex;
+  justify-content: center;
+}
+
+.soc-media > img {
+  padding: 0.5rem;
+  width: 40px;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 12vw;
+  }
+}
+/**
+* Play area
+*
+*/
 
 /*# sourceMappingURL=App.css.map */

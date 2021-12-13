@@ -1,37 +1,130 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
+@import url('https://media0.giphy.com/media/ZRbtUsG9PZdT42mpmQ/giphy.gif?cid=790b7611327cd601a2e9ce74c711ccc23a34b8ceb36aef0f&rid=giphy.gif&ct=g');
 
 $bg-color: #000000;
-$ms-drk-green: #003f2e;
-$ms-green: #377856;
-$ms-drt-yellow: #be9a5c;
-$ms-beige: #daa190;
-$ms-yellow: #d99800;
-$ms-orange: #d54d01;
-$ms-red: #b70002;
-$ms-purple: #aa2366;
-$ms-lgt-blue: #9f9daa;
-$ms-dark-blue: #3f5d8f;
+
+$verr-drk-blu: #172f60;
+$drk-blu: #1c4594;
+$lgt-blu: #22abda;
+$drk-blugr: #025d7b;
+$lgt-blugr: #05aeb2;
+$cyan: #00d3d3;
+$drk-green: #008462;
+$lgt-green: #00ab72;
+
 
 
 html {
     background-color: $bg-color;
-    font-family: 'Raleway', sans-serif;
-    
+    color: $lgt-blugr;
 }
 
 .App {
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
 }
 
 h1 {
-    color: $ms-beige;
+    font-size: 5rem;
 }
 
+// Header
+.header {
+    width: 100vw;
+    position: fixed; top: 0px;right:0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $bg-color;
+}
+
+.logo {
+    width: 50px;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    filter: invert(22%) sepia(28%) saturate(7279%) hue-rotate(132deg) brightness(96%) contrast(101%);
+}
+
+.nav-dots {
+    padding-right: 1rem;
+    filter: invert(78%) sepia(28%) saturate(7279%) hue-rotate(132deg) brightness(96%) contrast(101%);
+}
+
+// Page Intro Area
 .top-page {
     height: 50vh;
     background-color: $bg-color;
+
+    padding-left: 1rem;
+    max-width: 1000px;
+    min-height: 100vh;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.title {
+    background-image: url('https://media3.giphy.com/media/bFlzA4uDNefHwcWqib/giphy.gif?cid=790b7611934861188d553aeede4e68bce9e12b1b02c45ebd&rid=giphy.gif&ct=g');
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    margin: 10px 0;
+    
+  }
+
+// About Page
+.me-pic {
+    filter: saturate(0) invert(22%) sepia(73%) saturate(1485%) hue-rotate(126deg) brightness(75%) contrast(101%);
+    width: 300px;
+    border-radius: 180px;
+}
+
+
+
+
+
+// Footer
+.footer {
+    background-color: $drk-blugr;
+    color: $bg-color;
+    width: 100vw;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.soc-media {
+    filter: invert(100%);
+    display: flex;
+    justify-content: center;
+}
+
+.soc-media > img {
+    padding: 0.5rem;
+    width: 40px;
+}
+
+
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 12vw;
+    }
+
+}
+
+/**
+* Play area
+*
+*/
