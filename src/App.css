@@ -1,8 +1,14 @@
+<<<<<<< Updated upstream
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://media0.giphy.com/media/ZRbtUsG9PZdT42mpmQ/giphy.gif?cid=790b7611327cd601a2e9ce74c711ccc23a34b8ceb36aef0f&rid=giphy.gif&ct=g");
 html {
   background-color: #000000;
   color: #05aeb2;
+=======
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+html {
+  background-color: #000000;
+>>>>>>> Stashed changes
 }
 
 .App {
@@ -12,6 +18,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+<<<<<<< Updated upstream
   height: 100%;
 }
 
@@ -40,10 +47,20 @@ h1 {
 .nav-dots {
   padding-right: 1rem;
   filter: invert(78%) sepia(28%) saturate(7279%) hue-rotate(132deg) brightness(96%) contrast(101%);
+=======
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #daa190;
+  font-size: 5rem;
+>>>>>>> Stashed changes
 }
 
 .top-page {
   height: 50vh;
+<<<<<<< Updated upstream
   background-color: #000000;
   padding-left: 1rem;
   max-width: 1000px;
@@ -94,6 +111,47 @@ h1 {
 @media (max-width: 700px) {
   h1 {
     font-size: 12vw;
+=======
+}
+
+.me-intro {
+  width: 80vw;
+}
+
+.text-shadow-pop-tr {
+  -webkit-animation: text-shadow-pop-tr 1s both;
+  animation: text-shadow-pop-tr 1s both;
+  animation-fill-mode: forwards;
+}
+
+/**
+ * ----------------------------------------
+ * animation text-shadow-pop-tr
+ * ----------------------------------------
+ */
+@-webkit-keyframes text-shadow-pop-tr {
+  0% {
+    text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    text-shadow: 1px -1px #555555, 2px -2px #555555, 3px -3px #555555, 4px -4px #555555, 5px -5px #555555, 6px -6px #555555, 7px -7px #555555, 8px -8px #555555;
+    -webkit-transform: translateX(-8px) translateY(8px);
+    transform: translateX(-8px) translateY(8px);
+  }
+}
+@keyframes text-shadow-pop-tr {
+  0% {
+    text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    text-shadow: 1px -1px #555555, 2px -2px #555555, 3px -3px #555555, 4px -4px #555555, 5px -5px #555555, 6px -6px #555555, 7px -7px #555555, 8px -8px #555555;
+    -webkit-transform: translateX(-8px) translateY(8px);
+    transform: translateX(-8px) translateY(8px);
+>>>>>>> Stashed changes
   }
 }
 /**
