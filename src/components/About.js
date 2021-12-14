@@ -4,7 +4,7 @@ import mePic from '../img/me-pic.jpg'
 function About() {
     return (
         <div>
-            <h1>kdlfmaksdlsfkdsjfkls</h1>
+            <h2>Sigríður Ösp Green Sigurðardóttir</h2>
             <img src={mePic} className="me-pic" />
         </div>
     )

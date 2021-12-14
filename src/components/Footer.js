@@ -1,19 +1,22 @@
 import React from 'react'
 
-import github from '../img/socialMedia/github.png'
-import linkedin from '../img/socialMedia/linkedin.png'
-import instagram from '../img/socialMedia/instagram.png'
-import twitter from '../img/socialMedia/twitter.png'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+
 
 
 function Footer() {
     return (
         <div className="footer">
             <div className="soc-media">
-                <img src={github} />
-                <img src={linkedin} />
-                <img src={instagram} />
-                <img src={twitter} />
+                <FontAwesomeIcon icon={faGithub} className="fa-2x" />
+                <FontAwesomeIcon icon={faLinkedin} className="fa-2x" />
+                <FontAwesomeIcon icon={faInstagram} className="fa-2x" />
+                <FontAwesomeIcon icon={faTwitter} className="fa-2x" />
             </div>
             <p>© COPYRIGHT 2022, SIGRÍÐUR ÖSP GREEN SIGURÐARDÓTTIR</p>
         </div>

@@ -33,6 +33,8 @@ h1 {
     font-size: 5rem;
 }
 
+
+
 // Header
 .header {
     width: 100vw;
@@ -50,10 +52,7 @@ h1 {
     filter: invert(22%) sepia(28%) saturate(7279%) hue-rotate(132deg) brightness(96%) contrast(101%);
 }
 
-.nav-dots {
-    padding-right: 1rem;
-    filter: invert(78%) sepia(28%) saturate(7279%) hue-rotate(132deg) brightness(96%) contrast(101%);
-}
+
 
 // Page Intro Area
 .top-page {
@@ -68,6 +67,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .title {
@@ -85,16 +85,27 @@ h1 {
     filter: saturate(0) invert(22%) sepia(73%) saturate(1485%) hue-rotate(126deg) brightness(75%) contrast(101%);
     width: 300px;
     border-radius: 180px;
+} 
+
+// Tech Page
+.tech-stack {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-
+.tech-item {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 
 // Footer
 .footer {
-    background-color: $drk-blugr;
-    color: $bg-color;
     width: 100vw;
     height: 30vh;
 
@@ -105,14 +116,12 @@ h1 {
 }
 
 .soc-media {
-    filter: invert(100%);
     display: flex;
     justify-content: center;
 }
 
-.soc-media > img {
+.soc-media > * {
     padding: 0.5rem;
-    width: 40px;
 }
 
 
@@ -122,6 +131,17 @@ h1 {
         font-size: 12vw;
     }
 
+}
+
+@media (max-width: 850px) {
+    .tech-stack {
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
 }
 
 /**

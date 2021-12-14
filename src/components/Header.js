@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import logo from '../img/logo.png'
 
-import navDots from '../img/icons8-menu-vertical-30.png'
+import { faEllipsisV } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 
@@ -10,7 +11,7 @@ function Header() {
     return (
         <div className="header">
             <img src={logo} className="logo" />
-            <img src={navDots} className="nav-dots" />
+            <FontAwesomeIcon icon={faEllipsisV} />
             
             
         </div>
