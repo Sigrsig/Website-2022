@@ -1,11 +1,5 @@
-<<<<<<< Updated upstream
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://media0.giphy.com/media/ZRbtUsG9PZdT42mpmQ/giphy.gif?cid=790b7611327cd601a2e9ce74c711ccc23a34b8ceb36aef0f&rid=giphy.gif&ct=g');
-=======
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
->>>>>>> Stashed changes
 
 $bg-color: #000000;
 
@@ -19,16 +13,10 @@ $drk-green: #008462;
 $lgt-green: #00ab72;
 
 
-$main-font: 'Montserrat', sans-serif;
-
 
 html {
     background-color: $bg-color;
-<<<<<<< Updated upstream
     color: $lgt-blugr;
-=======
-    
->>>>>>> Stashed changes
 }
 
 .App {
@@ -38,7 +26,6 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-<<<<<<< Updated upstream
     height: 100%;
 }
 
@@ -141,67 +128,3 @@ h1 {
 * Play area
 *
 */
-=======
-    height: 100vh;
-    font-family: $main-font;
-    
-}
-
-h1 {
-    color: $ms-beige;
-    font-size: 5rem;
-}
-
-//Front page
-.top-page {
-    height: 50vh;
-    
-}
-
-.me-intro {
-    width: 80vw;
-    
-}
-
-
-.text-shadow-pop-tr {
-	-webkit-animation: text-shadow-pop-tr 1s both;
-	        animation: text-shadow-pop-tr 1s both;
-            animation-fill-mode: forwards;
-}
-
-
-/**
- * ----------------------------------------
- * animation text-shadow-pop-tr
- * ----------------------------------------
- */
- @-webkit-keyframes text-shadow-pop-tr {
-    0% {
-      text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
-      -webkit-transform: translateX(0) translateY(0);
-              transform: translateX(0) translateY(0);
-    }
-    100% {
-      text-shadow: 1px -1px #555555, 2px -2px #555555, 3px -3px #555555, 4px -4px #555555, 5px -5px #555555, 6px -6px #555555, 7px -7px #555555, 8px -8px #555555;
-      -webkit-transform: translateX(-8px) translateY(8px);
-              transform: translateX(-8px) translateY(8px);
-    }
-
-    
-  }
-  @keyframes text-shadow-pop-tr {
-    0% {
-      text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
-      -webkit-transform: translateX(0) translateY(0);
-              transform: translateX(0) translateY(0);
-    }
-    100% {
-      text-shadow: 1px -1px #555555, 2px -2px #555555, 3px -3px #555555, 4px -4px #555555, 5px -5px #555555, 6px -6px #555555, 7px -7px #555555, 8px -8px #555555;
-      -webkit-transform: translateX(-8px) translateY(8px);
-              transform: translateX(-8px) translateY(8px);
-    }
-  
-  }
-  
->>>>>>> Stashed changes
