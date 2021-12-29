@@ -1,12 +1,11 @@
+import "./sass/App.scss";
 
-import './App.css';
-
-import TopPage from './components/TopPage';
-import Header from './components/Header';
-import About from './components/About';
-import Footer from './components/Footer';
-import TechStack from './components/TechStack';
-import WorkExamples from './components/WorkExamples';
+import TopPage from "./components/TopPage";
+import Header from "./components/Header";
+import About from "./components/About";
+import Footer from "./components/Footer";
+import TechStack from "./components/TechStack";
+import WorkExamples from "./components/WorkExamples";
 
 function App() {
   return (
