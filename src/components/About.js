@@ -10,7 +10,7 @@ function About() {
       <Container>
         <Row className="me-info">
           <Col>
-            <img src={mePic} className="me-pic" />
+            <img src={mePic} className="me-pic" alt="me" />
           </Col>
           <Col className="description">
             <p>

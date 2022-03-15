@@ -5,19 +5,19 @@ import { faEllipsisV } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   Nav,
-  NavDropdown,
+  //NavDropdown,
   Offcanvas,
   Navbar,
   Container,
-  Form,
-  FormControl,
-  Button,
+  // Form,
+  // FormControl,
+  // Button,
 } from "react-bootstrap";
 
 function Header() {
   return (
     <div className="header">
-      <img src={logo} className="logo" />
+      <img src={logo} className="logo" alt="Me" />
 
       <Navbar bg="light" expand={false}>
         <Container fluid>
