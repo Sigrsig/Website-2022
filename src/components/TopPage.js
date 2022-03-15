@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { FontAwesomeIconProps } from '@fortawesome/react-fontawesome'
-import { FontawesomeObject } from '@fortawesome/fontawesome-svg-core'
+// import { FontAwesomeIconProps } from '@fortawesome/react-fontawesome'
+// import { FontawesomeObject } from '@fortawesome/fontawesome-svg-core'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 function TopPage() {
